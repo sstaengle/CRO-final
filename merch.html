@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Final Project for HTML5/CSS3 Course">
+  <meta name="keywords" content="HTML,CSS,JavaScript,jQuery">
+  <meta name="author" content="Sara Staengle">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- title of page in browser -->
+  <title>Welcome to CRO</title>
+  <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+<!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/merch.css" />
+</head>
+<!--BODY -->
+<body>
+  <!-- this is the HEADER -->
+    <div class="header">
+      <div class="header-container">
+        <div class="icon-container">
+          <a href="index.html"><img id="logo" src="./assets/images/CROnavbutton.jpg" alt="CRO mask logo" /></a>
+        </div>
+        <div class="nav-container">
+          <div class="nav-item"><a href="about.html">ABOUT</a></div>
+          <div class="nav-item"><a href="discography.html">DISCOGRAPHY</a></div>
+          <div class="nav-item"><a href="media.html">MEDIA</a></div>
+          <div class="nav-item active"><a href="merch.html">MERCH</a></div>
+          <div class="nav-item"><a href="tour.html">TOUR</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <img class="merch-banner" src="./assets/images/street-fighter.jpg" alt="CRO with mask on" />
+      <div class="container">
+        <div class="col-xs-12">
+          <h1 class="header-border">MERCH</h1>
+        </div>
+        <br />
+      </div>
+    </div>
+
+<!-- MERCH container
+<div class="container merch-container">
+  <div class="row">
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/1-mer.jpg" alt="picture 1" /></div>
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/2-mer.jpg" alt="picture 2" /></div>
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/3-mer.jpg" alt="picture 3" /></div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/4-mer.jpg" alt="picture 4" /></div>
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/5-mer.jpg" alt="picture 5" /></div>
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/6-mer.jpg" alt="picture 6" /></div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/7-mer.jpg" alt="picture 7" /></div>
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/8-mer.jpg" alt="picture 8" /></div>
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/9-mer.jpg" alt="picture 9" /></div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/10-mer.jpg" alt="picture 10" /></div>
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/11-mer.jpg" alt="picture 11" /></div>
+    <div class="col-xs-6 col-md-4"><img class="tile" src="./assets/images/MERCH-items/12-mer.jpg" alt="picture 12" /></div>
+  </div>
+</div>
+<br />
+
+-->
+
+<!-- CONTROL Buttons -->
+<!--<div class="container merch-container">
+  <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> ALL</button>
+  <button class="btn" onclick="filterSelection('tops')"> TOPS</button>
+  <button class="btn" onclick="filterSelection('hats')"> HATS</button>
+  <button class="btn" onclick="filterSelection('bundles')"> BUNDLES</button>
+  <button class="btn" onclick="filterSelection('accessories')"> ACCESSORIES</button>
+</div>
+<br />-->
+<!-- Portfolio Gallery Grid -->
+<!--<div class="row">
+      <div class="col-xs-6 col-md-4 filterDiv tops"><img src="./assets/images/merch-items/1-mer.jpg" alt="TOPS" style="width:100%"></div>
+      <div class="col-xs-6 col-md-4 filterDiv tops"><img src="./assets/images/merch-items/2-mer.jpg" alt="TOPS" style="width:100%"></div>
+      <div class="col-xs-6 col-md-4 filterDiv tops"><img src="./assets/images/merch-items/3-mer.jpg" alt="TOPS" style="width:100%"></div>
+</div>
+<br />
+<div class="row">
+      <div class="col-xs-6 col-md-4 filterDiv tops"><img src="./assets/images/merch-items/4-mer.jpg" alt="TOPS" style="width:100%"></div>
+      <div class="col-xs-6 col-md-4 filterDiv hats"><img src="./assets/images/merch-items/5-mer.jpg" alt="HATS" style="width:100%"></div>
+      <div class="col-xs-6 col-md-4 filterDiv hats"><img src="./assets/images/merch-items/6-mer.jpg" alt="HATS" style="width:100%"></div>
+</div>
+<br />
+<div class="row">
+      <div class="col-xs-6 col-md-4"><img src="./assets/images/merch-items/7-mer.jpg" alt="HATS" style="width:100%"></div>
+      <div class="col-xs-6 col-md-4"><img src="./assets/images/merch-items/8-mer.jpg" alt="BUNDLES" style="width:100%"></div>
+      <div class="col-xs-6 col-md-4"><img src="./assets/images/merch-items/9-mer.jpg" alt="BUNDLES" style="width:100%"></div>
+</div>
+<br />
+<div class="row">
+      <div class="col-xs-6 col-md-4"><img src="./assets/images/merch-items/10-mer.jpg" alt="BUNDLES" style="width:100%"></div>
+      <div class="col-xs-6 col-md-4"><img src="./assets/images/merch-items/11-mer.jpg" alt="ACCESSORIES" style="width:100%"></div>
+      <div class="col-xs-6 col-md-4"><img src="./assets/images/merch-items/12-mer.jpg" alt="ACCESSORIES" style="width:100%"></div>
+</div>
+</div>
+<br />
+<br /> -->
+
+<div class="container merch-container"></div>
+<div id="myBtnContainer">
+  <div class="container button-header">
+    <button class="btn btn-active" onclick="filterSelection('all')"> ALL</button>
+    <button class="btn" onclick="filterSelection('tops')"> TOPS</button>
+    <button class="btn" onclick="filterSelection('hats')"> HATS</button>
+    <button class="btn" onclick="filterSelection('bundles')"> BUNDLES</button>
+    <button class="btn" onclick="filterSelection('accessories')"> ACCESSORIES</button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row merch-row">
+    <div class="col-sm-6 col-md-4 filterDiv tops"><img class="img-responsive" src="./assets/images/merch-items/1-mer.jpg" style="width:100%"></div>
+    <div class="col-sm-6 col-md-4 filterDiv tops"><img class="img-responsive" src="./assets/images/merch-items/2-mer.jpg" style="width:100%"></div>
+    <div class="col-xs-6 col-md-4 filterDiv tops"><img src="./assets/images/merch-items/3-mer.jpg" style="width:100%"></div>
+  </div>
+  <div class="row merch-row">
+    <div class="col-xs-6 col-md-4 filterDiv hats"><img src="./assets/images/merch-items/4-mer.jpg" style="width:100%"></div>
+    <div class="col-xs-6 col-md-4 filterDiv hats"><img src="./assets/images/merch-items/5-mer.jpg" style="width:100%"></div>
+    <div class="col-xs-6 col-md-4 filterDiv hats"><img src="./assets/images/merch-items/6-mer.jpg" style="width:100%"></div>
+  </div>
+  <div class="row merch-row">
+    <div class="col-xs-6 col-md-4 filterDiv bundles"><img src="./assets/images/merch-items/7-mer.jpg" style="width:100%"></div>
+    <div class="col-xs-6 col-md-4 filterDiv bundles"><img src="./assets/images/merch-items/8-mer.jpg" style="width:100%"></div>
+    <div class="col-xs-6 col-md-4 filterDiv bundles"><img src="./assets/images/merch-items/9-mer.jpg" style="width:100%"></div>
+  </div>
+  <div class="row merch-row">
+    <div class="col-xs-6 col-md-4 filterDiv accessories"><img src="./assets/images/merch-items/10-mer.jpg" style="width:100%"></div>
+    <div class="col-xs-6 col-md-4 filterDiv accessories"><img src="./assets/images/merch-items/11-mer.jpg" style="width:100%"></div>
+  </div>
+</div>
+
+
+    <!-- FOOTER -->
+  <div class="footer">
+          <h1>FOLLOW CRO</h1>
+            <a href="https://www.facebook.com/cromusic/" target="_blank"<i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/thisiscro/" target="_blank"<i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/thisiscro" target="_blank"<i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/user/ChimperatorTV/featured" target="_blank"<i class="fa fa-youtube"></i></a>
+            <a href="https://open.spotify.com/artist/3utZ2yeQk0Z3BCOBWP7Vlu" target="_blank"<i class="fa fa-spotify"></i></a>
+          <div>
+            <div class="legal">2018 COPYRIGHT</div>
+            <div class="legal">PRIVACY POLICY</div>
+            <div class="legal">TERMS OF USE</div>
+          </div>
+    </div>
+<script src="./assets/javascripts/merch.js"></script>
+
+
+</body>
+</html>
